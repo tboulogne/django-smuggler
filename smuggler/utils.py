@@ -10,7 +10,7 @@ import re
 from django.core.management import call_command
 from django.db.utils import DEFAULT_DB_ALIAS
 from django.http import HttpResponse
-from django.utils.six import StringIO
+from six import StringIO
 
 from smuggler import settings
 
